@@ -1,0 +1,9 @@
+#pizarra {
+  width: 100%;
+  height: 100%;
+}
+#contenedor {
+  border: 2px black solid;
+  background-color: #3f7238;
+  width: 80%;
+}

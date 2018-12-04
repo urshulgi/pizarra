@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <title>Pizarra de dibujo</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+  </head>
+  <body>
+    <center>
+    <div id="contenedor">
+      <canvas id="pizarra"></canvas>
+    </div>
+    <p>¡Dibuja!</p>
+    <input id="lapiz" type="button" value="Lápiz">
+    <input id="borrador" type="button" value="Borrador">
+    <input id="limpiar" type="button" value="Limpiar pizarra" />
+    <input id="colorpicker" type="color" />
+    <br />
+    <p>Grosor del pincel</p>
+    <input id="valortamanolapiz" type="text" value="3" />
+    <input id ="botontamanolapiz" type="button" value="¡Cambiar tamaño!" />
+    <br />
+    <p>Grosor del borrador</p>
+    <input id="valortamanoborrador" type="text" value="20">
+    <input id="botontamanoborrador" type="button" value="¡Cambiar tamaño!">
+    </center>
+
+    <!-- <script type="text/javascript" src="utilidades.js"></script> -->
+    <script type="text/javascript" src="eventos.js"></script>
+  </body>
+</html>
